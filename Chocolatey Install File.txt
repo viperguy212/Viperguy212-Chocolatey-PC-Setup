@@ -1,0 +1,35 @@
+Get-ExecutionPolicy
+Set-ExecutionPolicy AllSigned
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+choco feature enable -n=allowGlobalConfirmation
+
+choco install chocolateygui
+choco install adobereader
+choco install googlechrome
+choco install jre8
+choco install firefox
+choco install notepadplusplus.install
+choco install zoom
+choco install vlc
+choco install teamviewer
+choco install paint.net
+choco install malwarebytes
+choco install putty.install
+choco install vscode.install
+choco install putty
+choco install ddu
+choco install sharex
+choco install powertoys
+choco install crystaldiskinfo
+choco install audacity
+choco install windirstat
+choco install discord.install
+choco install steam-client
+choco install handbrake.install
+choco install origin
+choco install sharex
+choco install epicgameslauncher
+choco install msiafterburner
+choco install ubisoft-connect
+choco install ddu
+choco install office365homepremium
