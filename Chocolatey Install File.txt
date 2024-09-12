@@ -36,4 +36,4 @@ choco install sharex -y
 choco install epicgameslauncher -y
 choco install msiafterburner -y
 choco install ubisoft-connect -y
-choco install office365homepremium -y
+choco install notepadplusplus -y
