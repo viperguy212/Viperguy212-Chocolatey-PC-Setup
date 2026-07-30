@@ -37,3 +37,42 @@ choco install epicgameslauncher -y
 choco install msiafterburner -y
 choco install ubisoft-connect -y
 choco install notepadplusplus -y
+//Launch PowerShell, right click as admin//
+
+//Run before//
+Get-ExecutionPolicy
+Set-ExecutionPolicy AllSigned
+
+//Install//
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+choco feature enable -n=allowGlobalConfirmation
+
+choco install chocolateygui -y
+choco install adobereader -y
+choco install googlechrome -y
+choco install jre8 -y
+choco install firefox -y
+choco install notepadplusplus.install -y
+choco install zoom -y
+choco install vlc -y
+choco install teamviewer-y
+choco install paint.net-y
+choco install malwarebytes -y
+choco install putty.install -y
+choco install vscode.install -y
+choco install putty -y
+choco install ddu -y
+choco install sharex -y
+choco install powertoys -y
+choco install crystaldiskinfo -y
+choco install audacity -y
+choco install windirstat -y
+choco install discord.install -y
+choco install steam-client -y
+choco install handbrake.install -y
+choco install origin -y
+choco install sharex -y
+choco install epicgameslauncher -y
+choco install msiafterburner -y
+choco install ubisoft-connect -y
+choco install git.install
