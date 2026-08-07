@@ -1,3 +1,5 @@
+//irm christitus.com/win | iex
+
 //Launch PowerShell, right click as admin//
 
 //Run before//
